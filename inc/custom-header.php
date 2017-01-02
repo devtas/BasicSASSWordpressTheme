@@ -50,8 +50,7 @@ function bswt_header_style() {
 	<style type="text/css">
 	<?php
 		// Has the text been hidden?
-		if ( ! display_header_text() ) :
-	?>
+		if ( ! display_header_text() ) : ?>
 		.site-title,
 		.site-description {
 			position: absolute;
