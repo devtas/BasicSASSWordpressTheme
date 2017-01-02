@@ -1,0 +1,46 @@
+/*
+Theme Name: BSWT
+Theme URI: http://underscores.me/
+Author: Devtas.tk & Underscores.me 
+Author URI: http://devtas.tk/
+Description: Wordpress Theme using SASS and _s
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eurofarma
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+eurofarma is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*     This file is working like main.scss in structure    */
+
+// Defining Variables
+@import "assets/stylesheets/modules/variables";
+
+// Bootstrap
+@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Third-party
+@import "assets/stylesheets/vendor/jquery.scrollbar";
+
+// Theme Configurations
+@import "assets/fonts/stylesheet";
+@import "assets/stylesheets/partials/buttons";
+@import "assets/stylesheets/partials/typography";
+@import "assets/stylesheets/partials/components";
+@import "assets/stylesheets/modules/tools";
+
+// Page Templates
+@import "assets/stylesheets/templates/post";
+@import "assets/stylesheets/templates/page";
+
+// Theme Styles
+@import "assets/stylesheets/theme-styles";

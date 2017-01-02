@@ -1,0 +1,12 @@
+*:focus {
+    outline: none;
+}
+ 
+// Global Theme Styles
+html{
+	body {
+		font-family: $default_font, Arial, sans-serif;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+}

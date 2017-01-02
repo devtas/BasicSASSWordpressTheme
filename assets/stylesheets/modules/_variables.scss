@@ -1,0 +1,14 @@
+
+// Defining Global Fonts
+
+$icon-font-path: "assets/fonts/bootstrap/" !default;
+$fa-font-path: "assets/fonts/font-awesome/fonts/" !default;
+
+// Setting color to Customizing SASS
+@import "colors";
+
+// Sizes
+$screenXS: '320px';
+$screenSM: '768px';
+$screenMD: '992px';
+$screenLG: '1200px';
