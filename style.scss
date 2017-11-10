@@ -26,7 +26,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "assets/stylesheets/modules/variables";
 
 // Bootstrap
-@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 // Third-party
 @import "assets/stylesheets/vendor/jquery.scrollbar";
