@@ -105,6 +105,9 @@ add_action( 'widgets_init', 'bswt_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bswt_scripts() {
+	// Styles
+	wp_register_style( 'bootstrap-style', get_template_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css' );
+	wp_enqueue_style( 'bootstrap-style' );
 	wp_enqueue_style( 'bswt-style', get_stylesheet_uri() );
 	
 	// Vendor and Libraries
