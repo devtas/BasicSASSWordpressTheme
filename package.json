@@ -4,8 +4,7 @@
   "description": "A basic bootstrap wordpress theme with SASS structure.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-  	"sass": "sass --watch style.scss:style.css"
+  	"watch": "sass --watch sass/style.scss:style.css"
   },
   "repository": {
     "type": "git",
