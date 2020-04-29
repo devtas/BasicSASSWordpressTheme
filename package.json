@@ -24,7 +24,7 @@
   "homepage": "https://github.com/devtas/BasicSASSWordpressTheme#readme",
   "dependencies": {
     "bootstrap": "4.4.1",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "jquery-mask-plugin": "1.14.16",
     "modernizr": "3.9.1",
     "popper.js": "1.16.1"
